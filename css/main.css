@@ -817,13 +817,14 @@ a.name-lable {
 	display: block;
 	font-size: 1.7rem;
 	line-height: 1.228571;
-	/*text-align: center;*/
 	padding-bottom: 20px;
+	color: #fdfdfd;
 }
 .mobile-section p {
 	display: block;
 	font-size: 1.2rem;
 	padding-bottom: 20px;
+	color: #fdfdfd;
 }
 .mobile-section a {
 	position: absolute;
@@ -831,13 +832,17 @@ a.name-lable {
 	left: 15px;
 }
 .mobile-section-1 {
-	background-image: url(../img/sec_1.jpg);
+	background-image: url(../img/sec_1-mob.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 .mobile-section-2 {
-	background-image: url(../img/sec_1-2.jpg);
+	background-image: url(../img/sec_1-2-mob.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 .mobile-section-3 {
-	background-image: url(../img/sec_1-3.jpg);
+	background-image: url(../img/sec_1-3-mob.jpg);
 	margin-bottom: 20px;
 }
 .labels {
