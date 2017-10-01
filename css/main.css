@@ -809,45 +809,7 @@ a.name-lable {
 .show-on-mobile {
 	display: none;
 }
-.mobile-section {
-	position: relative;
-	padding: 30px 15px;
-}
-.mobile-section b {
-	display: block;
-	font-size: 1.7rem;
-	line-height: 1.228571;
-	padding-bottom: 20px;
-	color: #fdfdfd;
-}
-.mobile-section p {
-	display: block;
-	font-size: 1.2rem;
-	padding-bottom: 20px;
-	color: #fdfdfd;
-}
-.mobile-section a {
-	position: absolute;
-	bottom: 30px;
-	left: 15px;
-}
-.mobile-section-1 {
-	background-image: url(../img/sec_1-mob.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-}
-.mobile-section-2 {
-	background-image: url(../img/sec_1-2-mob.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-}
-.mobile-section-3 {
-	background-image: url(../img/sec_1-3-mob.jpg);
-	margin-bottom: 20px;
-}
-.labels {
-	margin-bottom: 20px;
-}
+
 /* ----------------------------------MEDIA QUERIES------------------------------------ */
 
 
@@ -920,12 +882,175 @@ a.name-lable {
 	.row {
 		margin: 0;
 	}
-}
- /*@media only screen and (min-width: 768px) and (max-width: 991px) {
 
+	.mobile-section {
+		position: relative;
+		padding: 30px 15px;
+	}
+	.mobile-section b {
+		display: block;
+		font-size: 1.7rem;
+		line-height: 1.228571;
+		padding-bottom: 20px;
+		color: #fdfdfd;
+	}
+	.mobile-section p {
+		display: block;
+		font-size: 1.2rem;
+		padding-bottom: 20px;
+		color: #fdfdfd;
+	}
+	.mobile-section a {
+		position: absolute;
+		bottom: 30px;
+		left: 15px;
+	}
+	.mobile-section-1 {
+		background-image: url(../img/sec_1-mob.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.mobile-section-2 {
+		background-image: url(../img/sec_1-2-mob.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.mobile-section-3 {
+		background-image: url(../img/sec_1-3-mob.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+		margin-bottom: 20px;
+	}
+	.labels {
+		margin-bottom: 20px;
+	}
+	.logo-main-page {
+		display: block;
+		margin: 0 auto;
+	}
+}
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+	 .hide-on-mobile {
+ 		display: none;
+ 	}
+ 	.show-on-mobile {
+ 		display: block;
+ 	}
+ 	.container {
+ 		padding: 0;
+ 	}
+ 	.navbar-brand {
+ 		padding: 12px 15px;
+ 	}
+ 	.navbar-default {
+ 		padding: 10px 0;
+ 	}
+ 	.navbar-collapse {
+ 		width: 100%;
+ 		border: 0 solid;
+ 	}
+ 	.navbar-nav.nav-wrapper,
+ 	.navbar-nav {
+ 		width: 100%;
+ 		margin: 0;
+ 		padding-top: 7px;
+ 	}
+ 	.nav>li {
+ 		display: inline-block;
+ 	}
+ 	.nav-item {
+ 		padding: 0;
+ 	}
+ 	.nav-item:first-child,
+ 	.nav-item:nth-child(2) {
+ 		margin-bottom: 5px;
+ 	}
+ 	.navbar-nav>li:not(.logo):not(:last-child) {
+     padding-right: 0;
+ 	}
+ 	.navbar-nav>li:not(.logo) {
+ 		width: 49%;
+ 	}
+ 	.navbar-nav>li:not(.logo) {
+ 		padding: 0;
+ 	}
+ 	.container>.navbar-collapse {
+ 		margin: 0;
+ 	}
+ 	.navbar-default .navbar-collapse {
+ 		border-color: rgba(231, 231, 231, 0);
+ 	}
+ 	.navbar-default .navbar-nav>li>a.active-nav,
+ 	.navbar-nav>li>a,
+ 	.navbar-nav>li>a {
+ 		padding: 0;
+ 		border: 0;
+ 	}
+ 	.navbar-default .navbar-nav>li>a {
+ 		display: block;
+ 	}
+ 	.navbar-toggle {
+ 		margin-top: 19px;
+ 	}
+ 	#section-2 {
+ 		display: none;
+ 	}
+ 	.row {
+ 		margin: 0;
+ 	}
+
+	.mobile-section {
+		position: relative;
+		padding: 30px 15px;
+	}
+	.mobile-section b {
+		display: block;
+		font-size: 1.7rem;
+		line-height: 1.228571;
+		padding-bottom: 20px;
+		color: #fdfdfd;
+	}
+	.mobile-section p {
+		display: block;
+		font-size: 1.2rem;
+		padding-bottom: 20px;
+		color: #fdfdfd;
+		width: 50%;
+	}
+	.mobile-section a {
+		position: absolute;
+		bottom: 30px;
+		left: 15px;
+	}
+	.mobile-section-1 {
+		background-image: url(../img/sec_1.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center;
+	}
+	.mobile-section-2 {
+		background-image: url(../img/sec_1-2.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center;
+	}
+	.mobile-section-3 {
+		background-image: url(../img/sec_1-3.jpg);
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 20px;
+	}
+	.labels {
+		margin-bottom: 20px;
+	}
+	.logo-main-page {
+		display: block;
+		margin: 0 auto;
+	}
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+/*@media only screen and (min-width: 768px) and (max-width: 991px) {
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
