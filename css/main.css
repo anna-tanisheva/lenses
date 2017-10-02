@@ -1015,7 +1015,7 @@ a.name-lable {
 		font-size: 1.2rem;
 		padding-bottom: 20px;
 		color: #fdfdfd;
-		width: 50%;
+		width: 80%;
 	}
 	.mobile-section a {
 		position: absolute;
@@ -1050,9 +1050,101 @@ a.name-lable {
 	}
 }
 
-/*@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.container {
+		padding: 0;
+	}
+	.row {
+		margin: 0;
+	}
+	.navbar-nav.nav-wrapper {
+		width: 100%;
+	}
+	.navbar-nav {
+		width: 50%;
+	}
+	.navbar-nav>li:not(.logo):not(:last-child) {
+		padding-right: 0;
+	}
+	.navbar-nav>li:not(.logo) {
+		padding-left: 5.9%;
+	}
+	.carousel-inner .item:nth-child(1),
+	.carousel-inner .item:nth-child(2),
+	.carousel-inner .item:nth-child(3) {
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center;
+	}
+	.item:first-child .carousel-text,
+	.item:nth-child(2) .carousel-text,
+	.item:last-child .carousel-text {
+		padding: 0;
+	}
+	.carousel-text {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.section-1 b {
+		margin-top: -13px;
+	}
+	.slick-next {
+		right: 0;
+	}
+	.slick-prev {
+		left: 0
+	}
+	.slider-img {
+		margin: 0 auto;
+	}
 }
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-
-}*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.container {
+		padding: 0;
+	}
+	.row {
+		margin: 0;
+	}
+	.navbar-nav.nav-wrapper {
+		width: 100%;
+	}
+	.navbar-nav {
+		width: 50%;
+	}
+	.navbar-nav>li:not(.logo):not(:last-child) {
+		padding-right: 0;
+	}
+	.navbar-nav>li:not(.logo) {
+		padding-left: 10.7%;
+	}
+	.carousel-inner .item:nth-child(1),
+	.carousel-inner .item:nth-child(2),
+	.carousel-inner .item:nth-child(3) {
+		-webkit-background-size: cover;
+		background-size: cover;
+		background-position: center;
+	}
+	.item:first-child .carousel-text,
+	.item:nth-child(2) .carousel-text,
+	.item:last-child .carousel-text {
+		padding: 0;
+	}
+	.carousel-text {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.section-1 b {
+		margin-top: -13px;
+	}
+	.slick-next {
+		right: 0;
+	}
+	.slick-prev {
+		left: 0
+	}
+	.slider-img {
+		margin: 0 auto;
+	}
+}
