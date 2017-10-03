@@ -956,6 +956,34 @@ a.name-lable {
 	.name-lable-img {
 		margin: 0 auto;
 	}
+
+	/*feedback*/
+	.feedback.logo div {
+		display: block;
+		margin: 0 auto;
+	}
+	.feedback.logo img {
+		display: block;
+		margin: 0 auto;
+		padding-top: 35px;
+  	padding-bottom: 0;
+	}
+	.feedback.inner h1 {
+		font-size: 1.675rem;
+	}
+	.pull-left-mobile {
+		float: left!important;
+	}
+	.user-name .block-mobile {
+		display: block;
+	}
+	.feedback h2 {
+		width: 100%;
+	}
+	.feedback-container .link {
+		float: left;
+		font-size: 0.95rem;
+	}
 }
  @media only screen and (min-width: 480px) and (max-width: 767px) {
 	 .hide-on-mobile {
@@ -1103,6 +1131,34 @@ a.name-lable {
 		.name-lable-img {
 			margin: 0 auto;
 		}
+
+		/*feedback*/
+		.feedback.logo div {
+			display: block;
+			margin: 0 auto;
+		}
+		.feedback.logo img {
+			display: block;
+			margin: 0 auto;
+			padding-top: 35px;
+			padding-bottom: 0;
+		}
+		.feedback.inner h1 {
+			font-size: 1.675rem;
+		}
+		.pull-left-mobile {
+			float: left!important;
+		}
+		.user-name .block-mobile {
+			display: block;
+		}
+		.feedback h2 {
+			width: 100%;
+		}
+		.feedback-container .link {
+			float: left;
+			font-size: 0.95rem;
+		}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1157,6 +1213,11 @@ a.name-lable {
 	/*shop*/
 	.no-padding-mobile {
 		padding: 0;
+	}
+
+	/*feedback*/
+	.feedback h2 {
+		width: 100%;
 	}
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
