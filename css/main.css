@@ -984,6 +984,9 @@ a.name-lable {
 		float: left;
 		font-size: 0.95rem;
 	}
+	.links {
+		margin-bottom: 10px;
+	}
 }
  @media only screen and (min-width: 480px) and (max-width: 767px) {
 	 .hide-on-mobile {
@@ -1158,6 +1161,9 @@ a.name-lable {
 		.feedback-container .link {
 			float: left;
 			font-size: 0.95rem;
+		}
+		.links {
+			margin-bottom: 10px;
 		}
 }
 
