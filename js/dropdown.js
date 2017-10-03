@@ -1,4 +1,5 @@
 'use strict';
+
 var dropdown = document.querySelector("#dropdown-menu"),
 	dropdownItems = document.querySelectorAll(".dropdown-item"),
 	table = document.querySelector('.table-one'),
@@ -6,7 +7,7 @@ var dropdown = document.querySelector("#dropdown-menu"),
 	dataValue = "lensmaster";
 
 
-// фильтры при переходе
+// фильтрация при переходе
 if (window.location.href.indexOf('?') != -1) {
 	dataValue = window.location.href.split('?')[1];
 	for (var g = 0; g < dropdownItems.length; g++) {
@@ -82,7 +83,7 @@ function writeData(array, userAgent, listNode) {
 				listNode[item].innerHTML = elem;
 			})
 		}
-	}	
+	}
 }
 
 // парсим данные в таблицу
@@ -157,6 +158,8 @@ var parseData = function(array) {
 
 	}
 };
+
+// фильтрация
 
 $(document).ready(function(){
 

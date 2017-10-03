@@ -809,7 +809,9 @@ a.name-lable {
 .show-on-mobile {
 	display: none;
 }
-
+.table-col {
+	display: table-column;
+}
 /* ----------------------------------MEDIA QUERIES------------------------------------ */
 
 
@@ -987,6 +989,41 @@ a.name-lable {
 	.links {
 		margin-bottom: 10px;
 	}
+
+	/*table*/
+	.dropdown {
+		margin-left: 0;
+	}
+	.table, .table-header, .table-cell, .table-row {
+		display: block;
+	}
+	.table-header {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	.table-row { border: 1px solid #ccc; }
+	.table-cell {
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+	}
+	.table-cell:before {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: normal;
+		font-size: 0.8rem;
+	}
+	.table-cell:nth-of-type(1):before { content: "Ретейлер"; }
+	.table-cell:nth-of-type(2):before { content: "Частная торговая марка"; }
+	.table-cell:nth-of-type(3):before { content: "Поставщик"; }
+	.table-cell:nth-of-type(4):before { content: "Название продукта"; }
+	.table-cell:nth-of-type(5):before { content: "Цена продукта *"; }
 }
  @media only screen and (min-width: 480px) and (max-width: 767px) {
 	 .hide-on-mobile {
@@ -1165,6 +1202,38 @@ a.name-lable {
 		.links {
 			margin-bottom: 10px;
 		}
+		/*table*/
+		.table, .table-header, .table-cell, .table-row {
+			display: block;
+		}
+		.table-header {
+			position: absolute;
+			top: -9999px;
+			left: -9999px;
+		}
+		.table-row { border: 1px solid #ccc; }
+		.table-cell {
+			border: none;
+			border-bottom: 1px solid #eee;
+			/*border-left: 1px solid #eee;*/
+			position: relative;
+			padding-left: 50%;
+		}
+		.table-cell:before {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: 6px;
+			width: 45%;
+			padding-right: 10px;
+			white-space: normal;
+			font-size: 1rem;
+		}
+		.table-cell:nth-of-type(1):before { content: "Ретейлер"; }
+		.table-cell:nth-of-type(2):before { content: "Частная торговая марка"; }
+		.table-cell:nth-of-type(3):before { content: "Поставщик"; }
+		.table-cell:nth-of-type(4):before { content: "Название продукта"; }
+		.table-cell:nth-of-type(5):before { content: "Цена продукта *"; }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
